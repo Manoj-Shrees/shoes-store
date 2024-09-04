@@ -1,0 +1,14 @@
+{
+  "images" : [
+    {
+      "filename" : "tumblr_n1akhtt90t1stn28do1_1280-2-2.png",
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

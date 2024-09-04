@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E3379D52C88940200C653B4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3379D42C88940200C653B4 /* Constant.swift */; };
+		0E3379D72C88941400C653B4 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3379D62C88941400C653B4 /* APIManager.swift */; };
+		0E6EBF9C2C75FE10005F9713 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6EBF9B2C75FE10005F9713 /* Product.swift */; };
+		0E6EBF9E2C760302005F9713 /* ImageSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6EBF9D2C760302005F9713 /* ImageSlider.swift */; };
+		0E72FD1B2C759629007B5316 /* BrandsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E72FD1A2C759629007B5316 /* BrandsModel.swift */; };
+		0E72FD1D2C759792007B5316 /* ProductsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E72FD1C2C759792007B5316 /* ProductsModel.swift */; };
+		0E72FD1F2C75A8C6007B5316 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E72FD1E2C75A8C6007B5316 /* Home.swift */; };
+		0EA6550D2C7315C800523AF2 /* shoes_storeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6550C2C7315C800523AF2 /* shoes_storeApp.swift */; };
+		0EA6550F2C7315C800523AF2 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6550E2C7315C800523AF2 /* Splash.swift */; };
+		0EA655112C7315C800523AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA655102C7315C800523AF2 /* Assets.xcassets */; };
+		0EA655142C7315C800523AF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EA655132C7315C800523AF2 /* Preview Assets.xcassets */; };
+		0EA6551E2C7315C900523AF2 /* shoes_storeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6551D2C7315C900523AF2 /* shoes_storeTests.swift */; };
+		0EA655282C7315C900523AF2 /* shoes_storeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA655272C7315C900523AF2 /* shoes_storeUITests.swift */; };
+		0EA6552A2C7315C900523AF2 /* shoes_storeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA655292C7315C900523AF2 /* shoes_storeUITestsLaunchTests.swift */; };
+		0EA655372C73189B00523AF2 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA655362C73189B00523AF2 /* Onboarding.swift */; };
+		0EA6553A2C7345F100523AF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA655392C7345F100523AF2 /* ContentView.swift */; };
+		0EA6553E2C7376AE00523AF2 /* Sign-in.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6553D2C7376AE00523AF2 /* Sign-in.swift */; };
+		0EA655402C7395C000523AF2 /* Sign-up.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA6553F2C7395C000523AF2 /* Sign-up.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EA6551A2C7315C900523AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EA655012C7315C800523AF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EA655082C7315C800523AF2;
+			remoteInfo = "shoes store";
+		};
+		0EA655242C7315C900523AF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EA655012C7315C800523AF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EA655082C7315C800523AF2;
+			remoteInfo = "shoes store";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E3379D42C88940200C653B4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		0E3379D62C88941400C653B4 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		0E6EBF9B2C75FE10005F9713 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		0E6EBF9D2C760302005F9713 /* ImageSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSlider.swift; sourceTree = "<group>"; };
+		0E72FD1A2C759629007B5316 /* BrandsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsModel.swift; sourceTree = "<group>"; };
+		0E72FD1C2C759792007B5316 /* ProductsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsModel.swift; sourceTree = "<group>"; };
+		0E72FD1E2C75A8C6007B5316 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		0EA655092C7315C800523AF2 /* shoes store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "shoes store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA6550C2C7315C800523AF2 /* shoes_storeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoes_storeApp.swift; sourceTree = "<group>"; };
+		0EA6550E2C7315C800523AF2 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
+		0EA655102C7315C800523AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EA655132C7315C800523AF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0EA655192C7315C900523AF2 /* shoes storeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shoes storeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA6551D2C7315C900523AF2 /* shoes_storeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoes_storeTests.swift; sourceTree = "<group>"; };
+		0EA655232C7315C900523AF2 /* shoes storeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "shoes storeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA655272C7315C900523AF2 /* shoes_storeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoes_storeUITests.swift; sourceTree = "<group>"; };
+		0EA655292C7315C900523AF2 /* shoes_storeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shoes_storeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0EA655362C73189B00523AF2 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		0EA655392C7345F100523AF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0EA6553D2C7376AE00523AF2 /* Sign-in.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sign-in.swift"; sourceTree = "<group>"; };
+		0EA6553F2C7395C000523AF2 /* Sign-up.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sign-up.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EA655062C7315C800523AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA655162C7315C900523AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA655202C7315C900523AF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3379C62C888BB300C653B4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0E3379CE2C888EE800C653B4 /* Model */,
+				0E3379CD2C888EDA00C653B4 /* Viewmodel */,
+				0E3379CC2C888E5500C653B4 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0E3379C72C888CE300C653B4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0EA6550E2C7315C800523AF2 /* Splash.swift */,
+				0EA655362C73189B00523AF2 /* Onboarding.swift */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0E3379C82C888DD500C653B4 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				0E3379CB2C888DEE00C653B4 /* ViewModel */,
+				0E3379CA2C888DE500C653B4 /* View */,
+				0E3379C92C888DDC00C653B4 /* Model */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		0E3379C92C888DDC00C653B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E3379CA2C888DE500C653B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E6EBF9B2C75FE10005F9713 /* Product.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E3379CB2C888DEE00C653B4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0E3379CC2C888E5500C653B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E72FD1E2C75A8C6007B5316 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E3379CD2C888EDA00C653B4 /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Viewmodel;
+			sourceTree = "<group>";
+		};
+		0E3379CE2C888EE800C653B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E3379CF2C8892E000C653B4 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0EA6550C2C7315C800523AF2 /* shoes_storeApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		0E3379D02C88930700C653B4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0EA655102C7315C800523AF2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0E3379D12C88939600C653B4 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				0E3379D42C88940200C653B4 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		0E3379D22C8893A800C653B4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0E3379D62C88941400C653B4 /* APIManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		0E3379D32C8893B100C653B4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0E6EBF9A2C75FA48005F9713 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0E6EBF9D2C760302005F9713 /* ImageSlider.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0E72FD192C7595CB007B5316 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0E72FD1A2C759629007B5316 /* BrandsModel.swift */,
+				0E72FD1C2C759792007B5316 /* ProductsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0EA655002C7315C800523AF2 = {
+			isa = PBXGroup;
+			children = (
+				0EA6550B2C7315C800523AF2 /* shoes store */,
+				0EA6551C2C7315C900523AF2 /* shoes storeTests */,
+				0EA655262C7315C900523AF2 /* shoes storeUITests */,
+				0EA6550A2C7315C800523AF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EA6550A2C7315C800523AF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EA655092C7315C800523AF2 /* shoes store.app */,
+				0EA655192C7315C900523AF2 /* shoes storeTests.xctest */,
+				0EA655232C7315C900523AF2 /* shoes storeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EA6550B2C7315C800523AF2 /* shoes store */ = {
+			isa = PBXGroup;
+			children = (
+				0E3379CF2C8892E000C653B4 /* Application */,
+				0E3379D12C88939600C653B4 /* Constant */,
+				0E3379D32C8893B100C653B4 /* Extension */,
+				0E3379D22C8893A800C653B4 /* Helper */,
+				0E72FD192C7595CB007B5316 /* Models */,
+				0EA655122C7315C800523AF2 /* Preview Content */,
+				0E3379D02C88930700C653B4 /* Resources */,
+				0EA655382C73232900523AF2 /* Screens */,
+				0E3379C72C888CE300C653B4 /* Storyboard */,
+			);
+			path = "shoes store";
+			sourceTree = "<group>";
+		};
+		0EA655122C7315C800523AF2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0EA655132C7315C800523AF2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0EA6551C2C7315C900523AF2 /* shoes storeTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EA6551D2C7315C900523AF2 /* shoes_storeTests.swift */,
+			);
+			path = "shoes storeTests";
+			sourceTree = "<group>";
+		};
+		0EA655262C7315C900523AF2 /* shoes storeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0EA655272C7315C900523AF2 /* shoes_storeUITests.swift */,
+				0EA655292C7315C900523AF2 /* shoes_storeUITestsLaunchTests.swift */,
+			);
+			path = "shoes storeUITests";
+			sourceTree = "<group>";
+		};
+		0EA655382C73232900523AF2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0E6EBF9A2C75FA48005F9713 /* Components */,
+				0EA655392C7345F100523AF2 /* ContentView.swift */,
+				0E3379C82C888DD500C653B4 /* Product */,
+				0E3379C62C888BB300C653B4 /* Home */,
+				0EA6553D2C7376AE00523AF2 /* Sign-in.swift */,
+				0EA6553F2C7395C000523AF2 /* Sign-up.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EA655082C7315C800523AF2 /* shoes store */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA6552D2C7315C900523AF2 /* Build configuration list for PBXNativeTarget "shoes store" */;
+			buildPhases = (
+				0EA655052C7315C800523AF2 /* Sources */,
+				0EA655062C7315C800523AF2 /* Frameworks */,
+				0EA655072C7315C800523AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "shoes store";
+			productName = "shoes store";
+			productReference = 0EA655092C7315C800523AF2 /* shoes store.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EA655182C7315C900523AF2 /* shoes storeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA655302C7315C900523AF2 /* Build configuration list for PBXNativeTarget "shoes storeTests" */;
+			buildPhases = (
+				0EA655152C7315C900523AF2 /* Sources */,
+				0EA655162C7315C900523AF2 /* Frameworks */,
+				0EA655172C7315C900523AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EA6551B2C7315C900523AF2 /* PBXTargetDependency */,
+			);
+			name = "shoes storeTests";
+			productName = "shoes storeTests";
+			productReference = 0EA655192C7315C900523AF2 /* shoes storeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0EA655222C7315C900523AF2 /* shoes storeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA655332C7315C900523AF2 /* Build configuration list for PBXNativeTarget "shoes storeUITests" */;
+			buildPhases = (
+				0EA6551F2C7315C900523AF2 /* Sources */,
+				0EA655202C7315C900523AF2 /* Frameworks */,
+				0EA655212C7315C900523AF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EA655252C7315C900523AF2 /* PBXTargetDependency */,
+			);
+			name = "shoes storeUITests";
+			productName = "shoes storeUITests";
+			productReference = 0EA655232C7315C900523AF2 /* shoes storeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EA655012C7315C800523AF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0EA655082C7315C800523AF2 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					0EA655182C7315C900523AF2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0EA655082C7315C800523AF2;
+					};
+					0EA655222C7315C900523AF2 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 0EA655082C7315C800523AF2;
+					};
+				};
+			};
+			buildConfigurationList = 0EA655042C7315C800523AF2 /* Build configuration list for PBXProject "shoes store" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EA655002C7315C800523AF2;
+			productRefGroup = 0EA6550A2C7315C800523AF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EA655082C7315C800523AF2 /* shoes store */,
+				0EA655182C7315C900523AF2 /* shoes storeTests */,
+				0EA655222C7315C900523AF2 /* shoes storeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EA655072C7315C800523AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA655142C7315C800523AF2 /* Preview Assets.xcassets in Resources */,
+				0EA655112C7315C800523AF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA655172C7315C900523AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA655212C7315C900523AF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EA655052C7315C800523AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA655372C73189B00523AF2 /* Onboarding.swift in Sources */,
+				0EA655402C7395C000523AF2 /* Sign-up.swift in Sources */,
+				0EA6550F2C7315C800523AF2 /* Splash.swift in Sources */,
+				0E6EBF9E2C760302005F9713 /* ImageSlider.swift in Sources */,
+				0E72FD1D2C759792007B5316 /* ProductsModel.swift in Sources */,
+				0E72FD1F2C75A8C6007B5316 /* Home.swift in Sources */,
+				0EA6553A2C7345F100523AF2 /* ContentView.swift in Sources */,
+				0EA6550D2C7315C800523AF2 /* shoes_storeApp.swift in Sources */,
+				0E6EBF9C2C75FE10005F9713 /* Product.swift in Sources */,
+				0EA6553E2C7376AE00523AF2 /* Sign-in.swift in Sources */,
+				0E3379D72C88941400C653B4 /* APIManager.swift in Sources */,
+				0E72FD1B2C759629007B5316 /* BrandsModel.swift in Sources */,
+				0E3379D52C88940200C653B4 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA655152C7315C900523AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA6551E2C7315C900523AF2 /* shoes_storeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EA6551F2C7315C900523AF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA655282C7315C900523AF2 /* shoes_storeUITests.swift in Sources */,
+				0EA6552A2C7315C900523AF2 /* shoes_storeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EA6551B2C7315C900523AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EA655082C7315C800523AF2 /* shoes store */;
+			targetProxy = 0EA6551A2C7315C900523AF2 /* PBXContainerItemProxy */;
+		};
+		0EA655252C7315C900523AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EA655082C7315C800523AF2 /* shoes store */;
+			targetProxy = 0EA655242C7315C900523AF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EA6552B2C7315C900523AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EA6552C2C7315C900523AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EA6552E2C7315C900523AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"shoes store/Preview Content\"";
+				DEVELOPMENT_TEAM = 78YS9Y4X69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test-app.shoes-store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EA6552F2C7315C900523AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"shoes store/Preview Content\"";
+				DEVELOPMENT_TEAM = 78YS9Y4X69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test-app.shoes-store";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0EA655312C7315C900523AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78YS9Y4X69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test-app.shoes-storeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shoes store.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/shoes store";
+			};
+			name = Debug;
+		};
+		0EA655322C7315C900523AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78YS9Y4X69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test-app.shoes-storeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shoes store.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/shoes store";
+			};
+			name = Release;
+		};
+		0EA655342C7315C900523AF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78YS9Y4X69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test-app.shoes-storeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "shoes store";
+			};
+			name = Debug;
+		};
+		0EA655352C7315C900523AF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78YS9Y4X69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test-app.shoes-storeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "shoes store";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EA655042C7315C800523AF2 /* Build configuration list for PBXProject "shoes store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA6552B2C7315C900523AF2 /* Debug */,
+				0EA6552C2C7315C900523AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EA6552D2C7315C900523AF2 /* Build configuration list for PBXNativeTarget "shoes store" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA6552E2C7315C900523AF2 /* Debug */,
+				0EA6552F2C7315C900523AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EA655302C7315C900523AF2 /* Build configuration list for PBXNativeTarget "shoes storeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA655312C7315C900523AF2 /* Debug */,
+				0EA655322C7315C900523AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EA655332C7315C900523AF2 /* Build configuration list for PBXNativeTarget "shoes storeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EA655342C7315C900523AF2 /* Debug */,
+				0EA655352C7315C900523AF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EA655012C7315C800523AF2 /* Project object */;
+}
